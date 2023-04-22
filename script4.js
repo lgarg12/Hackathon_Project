@@ -8,10 +8,11 @@ const data_container = document.querySelector('.data-container')
 signUpButton.addEventListener('click', () => {
 	container.classList.add("right-panel-active");
     body.classList.add("right-panel-active");
+    // showData.classList.add("active");
 });
 
 signInButton.addEventListener('click', () => {
-	container.classList.remove("right-panel-active");
+    container.classList.remove("right-panel-active");
     body.classList.remove("right-panel-active");
 });
 
