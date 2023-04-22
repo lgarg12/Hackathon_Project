@@ -17,7 +17,6 @@ signInButton.addEventListener('click', () => {
 
 main_signup.addEventListener('click',()=>{
     data_container.classList.add('active');
-
-})
+});
 
 
